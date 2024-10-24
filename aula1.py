@@ -1,31 +1,15 @@
-'''
-Saida de dados     - ok
-Variaveis          - ok
-Entrada de dados   - ok
-Operadores Logicos -  
-'''
-
+# exemplo de entrada e saida de dados
 carteira = float(input("Digite um valor: "))
 print(carteira)
 
 '''
 float()
-int(inpuut("digite um inteiro: "))
-str(input("Digite uma string: "))
-double()
-bool() true ou false
-
-AND NOT OR
-
-pra tal bloco rodar, ele precisa que variavel1 seja igual a 2 AND seja menor que 5
-
-idade == 18 -> sinal de igual a  
-<= -> sinal de menor ou igual que
-idade >= 18 -> maior ou igual que
-< menor que
-> maior que
-idade != 18 diferente
+int()
+str()
+bool()
 '''
+
+# estrutura condicional if
 idade = int(input("Digite sua idade: "))
 
 if idade >= 18:
@@ -39,6 +23,7 @@ else:
 
 
 #----------------------------------------------------------------------  
+# exemplo de funções
 
 def abrirChat():
     print("Chat aberto")
@@ -65,9 +50,6 @@ elif idadeUsuario <= 15:
 else:
     print("Idade Invalida")
 
-
-
-# 2 funcoes, uma vai ser a principal para centralizar as outras -> main()  
 def acenderLuz(nome):
     luzAcesa = True
     print(f"{nome} está em casa entao acescendo luzes")
